@@ -27,4 +27,15 @@ public class Pracownik extends Osoba {
     public void dodajZwierzeta(Zwierzeta zwierzeta) {
         zwierzetanaFarmie.add(zwierzeta);
     }
+
+    @Override
+    public String toString() {
+        return "Pracownik{" +
+                "stanowisko='" + stanowisko + '\'' +
+                ", wyplata=" + wyplata +
+                ", zwierzetanaFarmie=" + zwierzetanaFarmie +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", imie='" + imie + '\'' +
+                '}';
+    }
 }

@@ -11,5 +11,6 @@ public class Main {
         System.out.println(pracownikKlara);
         System.out.println(krowa);
         System.out.println(Adam);
+        System.out.println();
     }
 }
