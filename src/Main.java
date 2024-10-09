@@ -17,5 +17,6 @@ public class Main {
         pracownikAdam.zmienPrzydzial(pracownikAdam, pracownikKlara, krowa);
         System.out.println(pracownikAdam.getZwierzetanaFarmie());
         System.out.println(pracownikKlara.getZwierzetanaFarmie());
+        System.out.println(Wlasciciel.liczbafarm);
     }
 }
